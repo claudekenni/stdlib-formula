@@ -1,0 +1,8 @@
+sshd_config:
+  Port: 22
+  Protocol: 2
+  ClientAliveInterval: 0
+  ClientAliveCountMax: 3
+  LoginGraceTime: 120
+  PermitRootLogin: 'no'
+  PasswordAuthentication: 'no'
